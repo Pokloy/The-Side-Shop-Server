@@ -40,6 +40,7 @@ module.exports.userRegistration = (req, res) => {
 }
 
 module.exports.testingUser = (req,res) => {
+	console.log('Test Success');
 	return res.send("User Connection Success");
 }
 
