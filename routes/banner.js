@@ -12,5 +12,7 @@ router.get("/", bannerController.bannersRetrieved);
 router.put("/:bannerId", verify, verifyAdmin, bannerController.updateBanner);
 router.delete("/:bannerId/deleteBanner", verify, verifyAdmin, bannerController.deleteBanner);
 
+//Testing COnnectione
+router.get("/testingBanner", bannerController.testingBanner)
 
 module.exports = router;

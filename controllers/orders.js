@@ -36,6 +36,13 @@ module.exports.addedProducts = async(req, res) => {
 }
 
 
+module.exports.testingOrder = async (req,res) => {
+  return res.send("Order Connection Success");
+}
+
+
+
+
 module.exports.changeQuantity = async (req, res) => {
     const currentUserId = req.user.id;
     let productIdIndex = req.body.productIdIndex;

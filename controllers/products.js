@@ -26,6 +26,11 @@ module.exports.createNewProduct = (req,res) => {
 	})
 }
 
+module.exports.testingProduct = async (req,res) => {
+	return res.send("Product Connection Success");
+}
+
+
 
 module.exports.retrieveAllProduct = async (req, res) => {
   try {

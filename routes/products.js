@@ -21,7 +21,7 @@ router.patch('/:productId/archive', verify,verifyAdmin, productController.archiv
 router.patch('/:productId/activate', verify,verifyAdmin, productController.activateProd);
 
 
-
-
+//Testing COnnectione
+router.get("/testingProduct", productController.testingProduct)
 
 module.exports = router;

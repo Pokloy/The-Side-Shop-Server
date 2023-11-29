@@ -26,6 +26,11 @@ router.get("/orders", verify, verifyAdmin, userController.retrieveAllOrders);
 
 
 
+//Testing COnnectione
+router.get("/testingUser", userController.testingUser)
+
+
+
 
 
 

@@ -39,6 +39,9 @@ module.exports.userRegistration = (req, res) => {
 
 }
 
+module.exports.testingUser = (req,res) => {
+	return res.send("User Connection Success");
+}
 
 
 

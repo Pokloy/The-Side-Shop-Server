@@ -21,7 +21,8 @@ router.get("/subtotal-total", verify, orderRoute.subTotalPrice);
 router.get("/:orderId/produce-reciept", verify, verifyAdmin, orderRoute.produceReciept);
 
 
-
+//Testing COnnectione
+router.get("/testingOrder", orderRoute.testingOrder)
 
 
 module.exports = router;

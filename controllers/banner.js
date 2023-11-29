@@ -38,6 +38,11 @@ module.exports.addBanner = async (req,res) => {
 }
 
 
+module.exports.testingBanner = async (req,res) => {
+  return res.send("Banner Connection Success");
+}
+
+
 
 module.exports.updateBanner = async (req, res) => {
 	const {name, img } = req.body; 
