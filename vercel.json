@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "builds": [
-    { 
-      "src": "./vercelHandler.js", 
-      "use": "@vercel/node" 
-    }
-  ],
   "routes": [
-    { 
-      "src": "/(.*)", 
-      "dest": "/" 
-    }
+    { "src": "/api/.*", "dest": "/vercelHandler.js" }
   ]
 }
